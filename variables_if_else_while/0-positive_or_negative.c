@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include <time.>
 
-main(void)
+int main() {
 
-	int n;
-	srand(time(0));
+	srand(time(NULL));
+	int n = rand() % (RAND_MAX + 1);
+	printf("The number %d is ", n);
 
-	n = rand() - RAND_MAX / 2;
-{
 	if (n > 0)
 	{
 	 printf("%d is positive\n", n);
