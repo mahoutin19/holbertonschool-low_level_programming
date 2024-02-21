@@ -1,13 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/*Prints the somethings */
 
-/* betty style doc for function main goes there */
+/**
+ * main - more headers goes there
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
 
-	srand(time(0));
+	rand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	int last_digit = n % 10;
