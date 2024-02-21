@@ -1,35 +1,34 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*Prints the somethings */
+/* main - more headers goes there */
 
 /**
  * main - more headers goes there
  *
  * Return: 0
  */
-
-iint main(void)
+int main(void)
 {
 	int n;
+	int lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	lastd = n % 10;
 
-	printf("Last digit of %d is %d and is ", n, n % 10);
-
-	if (n % 10 > 5)
+	if (lastd > 5)
 	{
-		printf("greater than 5\n");
+		printf("Last digit of %d is %d and is greater than 5", n, lastd);
 	}
-	else if (n % 10 == 0)
+	else if (lastd == 0)
 	{
-		printf("0\n");
+		printf("Last digit of %d is %d and 0", n, lastd);
 	}
 	else
 	{
-		printfprintf("less than 6 and not 0\n");
+		printf("Last digit of %d is %d and less thand 6 and 0", n, lastd);
 	}
-
 	return (0);
 
 }
