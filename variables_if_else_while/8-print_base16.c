@@ -9,21 +9,20 @@
 int main(void)
 
 {
-	char chffr = '0';
-	char ltr = 'a';
+	char chffr;
+	char ltr;
 
-	while (chffr <= '9')
+	for (chffr = '0'; chffr <= '9'; chffr++)
 	{
 		putchar(chffr);
-		chffr++;
 	}
 
-	while (ltr <= 'f')
+	for (ltr = 'a'; ltr <= 'f'; ltr++)
 
 	{
 		putchar(ltr);
-		ltr++;
 	}
+	putchar('\n');
 
 	return (0);
 }
