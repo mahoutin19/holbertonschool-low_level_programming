@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * main - main function
+ * print_alphabet - Make the alphabet
  *
- * Return: alaways (0)
+ * Return: void
  */
 
 void print_alphabet(void)
 {
 	char ltr;
+
 	for (ltr = 'a'; ltr <= 'z'; ltr++)
 	{
 		_putchar(ltr);
 	}
 	_putchar('\n');
 }
-
