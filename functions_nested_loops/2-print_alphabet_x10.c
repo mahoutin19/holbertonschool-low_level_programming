@@ -5,6 +5,7 @@
  *
  * Return: void
  */
+
 void print_alphabet_x10(void)
 
 {
@@ -18,7 +19,8 @@ void print_alphabet_x10(void)
 		_putchar(ltr);
 		}
 		_putchar('\n');
+
 		i++;
-		
+
 	}
 }
