@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * char *_strdup - duplicaced a string
+ * _strdup - duplicaced a string
  * @str: the string to duplicate
- * Return : the string duplicated
+ * Return: the string duplicated
  */
 
 char *_strdup(char *str)
